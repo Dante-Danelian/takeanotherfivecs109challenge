@@ -85,7 +85,7 @@ def createdistribution(file):
     solo = converter.parse(file)
 
     pitches = {}
-    last = note.Note('B-3')
+    last = note.Note('B-3')         # starting note
 
     # Make dictionary where keys are notes in our SCALE.
     for i in SCALE:
